@@ -31,7 +31,7 @@
 ### Инициализация сервера
 
 ```js
-  const jrfWS = require('jrf-ws');
+  const jrfWS = require('jrf-ws-3');
   const https = require('https');
   const fs = require('fs');
 

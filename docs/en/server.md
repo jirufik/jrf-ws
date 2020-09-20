@@ -29,7 +29,7 @@ To work with `WebSockets`, the server uses light and fast [ws](https://github.co
 ### Server Initialization
 
 ```js
-  const jrfWS = require('jrf-ws');
+  const jrfWS = require('jrf-ws-3');
   const https = require('https');
   const fs = require('fs');
 

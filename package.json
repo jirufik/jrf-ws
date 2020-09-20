@@ -1,5 +1,5 @@
 {
-  "name": "jrf-ws",
+  "name": "jrf-ws-3",
   "version": "1.0.0",
   "description": "Is a JavaScript library, to create a real time API, based on WebSockets. The horizontal scaling of the server part is supported.",
   "main": "index.js",
@@ -20,6 +20,7 @@
     "websocket",
     "jrfws",
     "jrf-ws",
+    "jrf-ws-3",
     "server",
     "client",
     "webclient",

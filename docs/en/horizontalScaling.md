@@ -65,7 +65,7 @@ restarts the connection.
 
 ### Example
 ```js
-  const jrfWS = require('jrf-ws');
+  const jrfWS = require('jrf-ws-3');
 
   // Function return values for authentication
   // when connecting to remote clones

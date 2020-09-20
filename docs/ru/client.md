@@ -42,7 +42,7 @@
 Web клиент
 
 ```js
-import jrfWS from 'jrf-ws';
+import jrfWS from 'jrf-ws-3';
 
 // Создаем экземпляр клиента
 const client = new jrfWS.WebClient({
@@ -54,7 +54,7 @@ url: 'ws://localhost:4000'
 Node.js клиент
 
 ```js
-const jrfWS = require('jrf-ws');
+const jrfWS = require('jrf-ws-3');
 
 // Создаем экземпляр клиента
 const client = new jrfWS.Client({

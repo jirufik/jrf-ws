@@ -1,10 +1,10 @@
-# jrf-ws
+# jrf-ws-3
 
-![jrf-ws](jrfwslogo.png)
+![jrf-ws-3](jrfwslogo.png)
 
 ## Description
 
-**jrf-ws** - is a JavaScript library, to create a real time API
+**jrf-ws-3** - is a JavaScript library, to create a real time API
 , based on WebSockets. Is a wrapper over a light and fast. [ws](https://github.com/websockets/ws).
 
 It consists of a server part, which runs in the [node.js](https://nodejs.org/en/). 
@@ -40,7 +40,7 @@ and asynchronous parallel iteration processing.
 ### Server
 
 ```js
-const jrfWS = require('jrf-ws');
+const jrfWS = require('jrf-ws-3');
 
 // Create an instance of the server
 const server = new jrfWS.Server({
@@ -93,7 +93,7 @@ server.start();
 ### Client
 
 ```js
-const jrfWS = require('jrf-ws');
+const jrfWS = require('jrf-ws-3');
 
 // Create an instance of the client
 const client = new jrfWS.Client({

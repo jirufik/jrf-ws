@@ -41,7 +41,7 @@ The implementations have almost identical functionality, the differences are not
 Web client
 
 ```js
-import jrfWS from 'jrf-ws';
+import jrfWS from 'jrf-ws-3';
 
 // Create an instance of the client
 const client = new jrfWS.WebClient({
@@ -53,7 +53,7 @@ url: 'ws://localhost:4000'
 Node.js client
 
 ```js
-const jrfWS = require('jrf-ws');
+const jrfWS = require('jrf-ws-3');
 
 // Create an instance of the client
 const client = new jrfWS.Client({
