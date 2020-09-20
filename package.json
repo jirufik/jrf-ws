@@ -1,0 +1,59 @@
+{
+  "name": "jrf-ws",
+  "version": "1.0.0",
+  "description": "Is a JavaScript library, to create a real time API, based on WebSockets. The horizontal scaling of the server part is supported.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "collectCoverage": true,
+    "rootDir": "./",
+    "testRegex": ""
+  },
+  "keywords": [
+    "api",
+    "realtime",
+    "ws",
+    "websockets",
+    "websocket",
+    "jrfws",
+    "jrf-ws",
+    "server",
+    "client",
+    "webclient",
+    "route",
+    "routing",
+    "grpc",
+    "horizontal",
+    "scaling",
+    "jrf"
+  ],
+  "author": {
+    "name": "jirufik",
+    "url": "https://github.com/jirufik"
+  },
+  "maintainers": [
+    {
+      "name": "jirufik",
+      "url": "https://github.com/jirufik"
+    }
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "ws": "^7.3.1",
+    "jrf-path-exists": "^1.0.4",
+    "jrf-pip": "^1.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jirufik/jrf-ws"
+  }
+}
